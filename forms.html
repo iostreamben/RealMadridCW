@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+
+
+<form action = "bienvenido.php" method = "post">
+<table border="1" color= blue>
+  <tr>
+<td><h3>Fullname : </td>
+<td>  <input type = "text" name="fullname" placeholder="Fullname" maxlength="10">
+</h3></td>
+</tr>
+
+<tr>
+<td><h3>Password : </td>
+<td>  <input type = "password" name="password" placeholder="Password"  maxlength="20" >
+</h3></td>
+</tr>
+
+<tr>
+<td><h3> Description : </td>
+  <td><textarea name="description" cols="50" rows="5" placeholder="Fill in your description" ></textarea>
+
+  </td>
+
+</h3></td>
+</tr>
+
+<tr>
+  <td><h3> Gender : </h3></td>
+  <td><input type="radio" name="gender" value="Female"> Female
+    <input type="radio" name="gender" value="Male"> Male </td>
+
+</tr>
+
+<tr>
+  <td><h3> Birthday : </h3></td>
+  <td><select name="Day">
+        <option> 1 </option>
+        <option> 2 </option>
+        <option> 3 </option>
+        <option> 4 </option>
+        <option> 5 </option>
+        <option> 6 </option>
+        <option> 7 </option>
+        <option selected> 8 </option>
+        <option> 9 </option>
+        <option> 10 </option>
+        <option> 11 </option>
+        <option> 12 </option>
+      </select>
+      <select name="Month" size="5" multiple>
+            <optgroup label="First half of the year">
+            <option> Janvier </option>
+            <option> Fevrier </option>
+            <option> Mars </option>
+            <option> Avril </option>
+            <option> Mai </option>
+            <option> Juin </option>
+          </optgroup>
+            <optgroup label="Second half of the year">
+            <option selected> Juillet </option>
+            <option> Aout </option>
+            <option> Septembre </option>
+            <option> Octobre </option>
+            <option> Novembre </option>
+            <option> Decembre </option>
+          </optgroup>
+          </select>
+      <select name="Year">
+                <option> 2018 </option>
+                <option> 2017 </option>
+                <option> 2016 </option>
+              </select>
+</tr>
+
+<tr>
+  <td><h3> Upload your profile picture : </h3></td>
+  <td><input type="file" name="img" size="30"></td>
+</tr>
+
+
+<tr>
+  <td><input type="number" name="num"></td>
+  <td><input type="range" name="range" min="0" max="100" step="5"></td>
+  <td><input type="color" name="color"></td>
+</tr>
+
+
+
+<tr>
+  <td><h3> What are your interests? : </h3></td>
+
+  <td><input type="checkbox" name="swim" value="swim"> Swimming
+      <br><input type="checkbox" name="Cooking" value="Cooking"> Cooking</br>
+      <input type="checkbox" name="Sports" value="Sports"> Sports
+      <br><input type="checkbox" name="Video games" value="Video games"> Video games</br>
+   </td>
+<tr>
+  <td><input type="submit" value="Sign Up" ></td>
+  <td><input type="reset" value="Clear All"></td>
+
+</tr>
+
+
+
+</form>
+</body>
+</html>
